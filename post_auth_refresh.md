@@ -14,7 +14,6 @@ Obtiene un nuevo token de acceso usando un token de refresco válido.
 |-------------|----------|-------------------------|
 |refresh_token|SI        |Token de refresco válido |
 
-refresh_token: Token de refresco válido.
 
 ### Ejemplo:
 ```bash

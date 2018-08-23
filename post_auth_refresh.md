@@ -15,7 +15,12 @@ Obtiene un nuevo token de acceso usando un token de refresco válido.
 |refresh_token|SI        |Token de refresco válido |
 
 
-### Ejemplo:
+### Ejemplos:
+```bash
+curl -X POST -H "Content-Type: application/json" \
+-d '{"refresh_token":"CBX_RT-czntKqNbP87PLT6ai2c0mDle-289145332-3ONbLx2q4o9AtkZu-559849"}' \
+'https://cianbox.org/micuenta/api/v2/auth/refresh'
+```
 ```bash
 curl -X POST -H "Content-Type: application/x-www-form-urlencoded" \
 -d "refresh_token=CBX_RT-czntKqNbP87PLT6ai2c0mDle-289145332-3ONbLx2q4o9AtkZu-559849" \
@@ -39,4 +44,4 @@ curl -X POST -H "Content-Type: application/x-www-form-urlencoded" \
 |Valor         |Descripción |
 |--------------|------------|
 |access_token  |Token de acceso temporal, vence cada 24 horas (tiempo restante determinado por **expires_in**)|
-|expires_in    | Tiempo restante del token de acceso expresado en segundos|
+|expires_in    |Tiempo restante del token de acceso expresado en segundos|

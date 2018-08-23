@@ -17,7 +17,12 @@ Obtiene las credenciales de acceso (token de acceso y refresco) usando usuario y
 |user      |SI        |Nombre de usuario de Cianbox|                |
 |password  |SI        |Contraseña de Cianbox       |                |
 
-### Ejemplo:
+### Ejemplos:
+```bash
+curl -X POST -H "Content-Type: application/json" \
+-d '{"app_name":"Mi App","app_code":"mi-app","user":"usuario","password":"secreto1234"}' \
+'https://cianbox.org/micuenta/api/v2/auth/credentials'
+```
 ```bash
 curl -X POST -H "Content-Type: application/x-www-form-urlencoded" \
 -d "app_name=Mi App&app_code=mi-app&user=usuario&password=secreto1234" \

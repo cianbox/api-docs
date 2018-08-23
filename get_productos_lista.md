@@ -26,7 +26,7 @@ o
 
 ### Ejemplo:
 ```bash
-curl -X GET 'https://cianbox.org/micuenta/api/v2/productos?access_token=CBX_AT-TcIHdWOvdpIMNsXG-485517-hRG87XCcRnpCzhWOHAs1up6KPQykiuvc-663053443'
+curl -X GET 'https://cianbox.org/micuenta/api/v2/productos?access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
 ```
 ### Respuesta:
 

@@ -10,3 +10,9 @@ Bienvenido a la documentación de la API de Cianbox
 
 #### Productos
 + [Obtener Productos](https://github.com/cianbox/api-docs/blob/master/get_productos_lista.md)
+
+#### Clientes
++ [Obtener Clientes](https://github.com/cianbox/api-docs/blob/master/get_clientes_lista.md)
+
+#### Pedidos/Órdenes
++ [Obtener Pedidos](https://github.com/cianbox/api-docs/blob/master/get_pedidos_lista.md)

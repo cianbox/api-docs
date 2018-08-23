@@ -21,6 +21,7 @@ o
 |page         |NO        |Página solicitada                             |
 |limit        |NO        |Límite de ítems por petición                  |
 |fields       |NO        |Cualquiera de los listados en **available_fields** separados por comas, valor predeterminado: todos los campos. ej. &fields=id,updated,producto|
+|order        |NO        |Ordena el listado, acepta los valores: create-date-asc, create-date-desc, modified-date-asc, modified-date-desc, id-asc, id-desc|
 
 
 ### Ejemplo:

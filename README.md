@@ -10,6 +10,8 @@ Bienvenido a la documentación de la API de Cianbox
 
 #### Productos
 + [Obtener Productos](https://github.com/cianbox/api-docs/blob/master/get_productos_lista.md)
++ [Obtener Marcas](https://github.com/cianbox/api-docs/blob/master/get_marcas_lista.md)
++ [Obtener Categorías](https://github.com/cianbox/api-docs/blob/master/get_categorias_lista.md)
 
 #### Clientes
 + [Obtener Clientes](https://github.com/cianbox/api-docs/blob/master/get_clientes_lista.md)

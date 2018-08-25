@@ -31,8 +31,8 @@ Crea un nuevo cliente
 curl -X POST -H "Content-Type: application/json" \
 -d '{ \
         "razon": "Pedro García", \
-        "condicion": "MT|RI|EXE|CF|RNI|NR|CE", \
-        "tipo_documento": "CUIT|CUIL|DNI|LE|LC|Pasaporte|CI Extranjera", \
+        "condicion": "MT", \
+        "tipo_documento": "CUIT", \
         "numero_documento": "20999999994", \
         "telefono": "+54 343 12345656", \
         "celular": "+54 343 123558877", \

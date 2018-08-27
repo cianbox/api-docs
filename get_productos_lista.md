@@ -101,6 +101,36 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/productos?access_token=CBX_AT-T
             "precio_neto": 12.2612,
             "precio_oferta": 0,
             "oferta": false,
+            "precios": [
+                {
+                    "id_lista_precio": 0,
+                    "updated": "2018-08-09 19:14:16",
+                    "moneda": "DOL",
+                    "simbolo": "u$s",
+                    "neto": 0.4379
+                },
+                {
+                    "id_lista_precio": 1,
+                    "updated": "2018-08-09 19:14:16",
+                    "moneda": "DOL",
+                    "simbolo": "u$s",
+                    "neto": 0.4681
+                },
+                {
+                    "id_lista_precio": 2,
+                    "updated": "2018-08-09 19:14:16",
+                    "moneda": "DOL",
+                    "simbolo": "u$s",
+                    "neto": 0.50132
+                },
+                {
+                    "id_lista_precio": 3,
+                    "updated": "2018-08-09 19:14:16",
+                    "moneda": "DOL",
+                    "simbolo": "u$s",
+                    "neto": 0.56776
+                }
+            ],
             "alicuota_iva": 1.21,
             "ubicacion": "",
             "talle": "",

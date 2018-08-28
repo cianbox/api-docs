@@ -59,6 +59,7 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/productos?access_token=CBX_AT-T
         "precio_neto",
         "precio_oferta",
         "oferta",
+        "precios",
         "alicuota_iva",
         "ubicacion",
         "talle",
@@ -98,7 +99,7 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/productos?access_token=CBX_AT-T
             "reservado": 0,
             "cantidad_minima": 0,
             "cantidad_critica": 0,
-            "precio_neto": 12.2612,
+            "precio_neto": 12.3967,
             "precio_oferta": 0,
             "oferta": false,
             "precios": [
@@ -107,28 +108,33 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/productos?access_token=CBX_AT-T
                     "updated": "2018-08-09 19:14:16",
                     "moneda": "DOL",
                     "simbolo": "u$s",
-                    "neto": 0.4379
+                    "neto": 0.4379,
+                    "final": 0.5299,
+                    "redondeo": 5,
+                    "neto_calculado": 12.3967,
+                    "final_calculado": 15
                 },
                 {
                     "id_lista_precio": 1,
                     "updated": "2018-08-09 19:14:16",
                     "moneda": "DOL",
                     "simbolo": "u$s",
-                    "neto": 0.4681
+                    "neto": 0.4681,
+                    "final": 0.5664,
+                    "redondeo": 5,
+                    "neto_calculado": 16.5289,
+                    "final_calculado": 20
                 },
                 {
                     "id_lista_precio": 2,
                     "updated": "2018-08-09 19:14:16",
                     "moneda": "DOL",
                     "simbolo": "u$s",
-                    "neto": 0.50132
-                },
-                {
-                    "id_lista_precio": 3,
-                    "updated": "2018-08-09 19:14:16",
-                    "moneda": "DOL",
-                    "simbolo": "u$s",
-                    "neto": 0.56776
+                    "neto": 0.5013,
+                    "final": 0.6066,
+                    "redondeo": 5,
+                    "neto_calculado": 16.5289,
+                    "final_calculado": 20
                 }
             ],
             "alicuota_iva": 1.21,

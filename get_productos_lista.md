@@ -106,8 +106,7 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/productos?access_token=CBX_AT-T
                 {
                     "id_lista_precio": 0,
                     "updated": "2018-08-09 19:14:16",
-                    "moneda": "DOL",
-                    "simbolo": "u$s",
+                    "id_moneda": 2,
                     "neto": 0.4379,
                     "final": 0.5299,
                     "redondeo": 5,
@@ -117,8 +116,7 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/productos?access_token=CBX_AT-T
                 {
                     "id_lista_precio": 1,
                     "updated": "2018-08-09 19:14:16",
-                    "moneda": "DOL",
-                    "simbolo": "u$s",
+                    "id_moneda": 2,
                     "neto": 0.4681,
                     "final": 0.5664,
                     "redondeo": 5,
@@ -128,8 +126,7 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/productos?access_token=CBX_AT-T
                 {
                     "id_lista_precio": 2,
                     "updated": "2018-08-09 19:14:16",
-                    "moneda": "DOL",
-                    "simbolo": "u$s",
+                    "id_moneda": 2,
                     "neto": 0.5013,
                     "final": 0.6066,
                     "redondeo": 5,

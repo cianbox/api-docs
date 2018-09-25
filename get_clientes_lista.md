@@ -56,6 +56,7 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/clientes?access_token=CBX_AT-Tc
         "limite",
         "saldo",
         "descuento",
+        "listas_precio",
         "observaciones",
         "usuarios"
     ],
@@ -80,6 +81,7 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/clientes?access_token=CBX_AT-Tc
             "limite": 45000,
             "saldo": 23781.32,
             "descuento": 0,
+            "listas_precio": [0,2,3,4],
             "observaciones": "Abono hasta octubre 2018 $2805"
         }
     ]

@@ -20,12 +20,14 @@ Crea un nuevo pedido
     "productos": [
         {
             "id": 67,
+            "id_lista_precio": 0,
             "cantidad": 1.0000,
             "alicuota": 21.0000,
             "neto_uni": 974.2500
         },
         {
             "id": 256,
+            "id_lista_precio": 2,
             "cantidad": 2.0000,
             "alicuota": 21.0000,
             "neto_uni": 419.0000
@@ -39,10 +41,10 @@ Crea un nuevo pedido
 curl -X POST -H "Content-Type: application/json" \
 -d '{"fecha":"2018-08-23","id_canal":6,"id_cuenta":1,"id_cliente":1300,"id_usuario":41, \
 "observaciones":"","productos":[ \
-{"id":1791,"cantidad":1,"alicuota":21,"neto_uni":350}, \
-{"id":2035,"cantidad":1,"alicuota":10.5,"neto_uni":284.3116}, \
-{"id":2164,"cantidad":1,"alicuota":10.5,"neto_uni":1550.5638}, \
-{"id":2685,"cantidad":1,"alicuota":10.5,"neto_uni":1803.2}]}' \
+{"id":1791,"id_lista_precio":0,"cantidad":1,"alicuota":21,"neto_uni":350}, \
+{"id":2035,"id_lista_precio":2,"cantidad":1,"alicuota":10.5,"neto_uni":284.3116}, \
+{"id":2164,"id_lista_precio":1,"cantidad":1,"alicuota":10.5,"neto_uni":1550.5638}, \
+{"id":2685,"id_lista_precio":2,"cantidad":1,"alicuota":10.5,"neto_uni":1803.2}]}' \
 'https://cianbox.org/micuenta/api/v2/pedidos/alta?access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
 ```
 ### Respuesta:

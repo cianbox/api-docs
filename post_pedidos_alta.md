@@ -16,6 +16,7 @@ Crea un nuevo pedido
     "id_cuenta": 1,
     "id_cliente": 45,
     "id_usuario": 12,
+    "id_sucursal": 1,
     "observaciones": "Observaciones del pedido",
     "productos": [
         {
@@ -40,7 +41,7 @@ Crea un nuevo pedido
 ```bash
 curl -X POST -H "Content-Type: application/json" \
 -d '{"fecha":"2018-08-23","id_canal":6,"id_cuenta":1,"id_cliente":1300,"id_usuario":41, \
-"observaciones":"","productos":[ \
+"id_sucursal":1"observaciones":"","productos":[ \
 {"id":1791,"id_lista_precio":0,"cantidad":1,"alicuota":21,"neto_uni":350}, \
 {"id":2035,"id_lista_precio":2,"cantidad":1,"alicuota":10.5,"neto_uni":284.3116}, \
 {"id":2164,"id_lista_precio":1,"cantidad":1,"alicuota":10.5,"neto_uni":1550.5638}, \

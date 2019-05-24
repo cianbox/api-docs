@@ -40,10 +40,10 @@ curl -X POST -H "Content-Type: application/json" \
 ```json
 {
     "status": "ok",
-    "scheme": "http",
-    "host": "cianbox.test",
-    "account": "rpdigital",
-    "module": "pv_clientes",
+    "scheme": "https",
+    "host": "cianbox.∫∫org",
+    "account": "micuenta",
+    "module": "gr_config",
     "method": "POST",
     "body": {
         "status": "ok",

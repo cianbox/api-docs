@@ -9,9 +9,9 @@ Bienvenido a la documentación de la API de Cianbox
 + [Renovar credenciales](https://github.com/cianbox/api-docs/blob/master/post_auth_refresh.md)
 
 #### Webhooks
-+ [Listar webhooks](https://github.com/cianbox/api-docs/blob/master/get_webhook_lista.md)
-+ [Dar de alta un webhook](https://github.com/cianbox/api-docs/blob/master/post_webhook_alta.md)
-+ [Eliminar un webhook](https://github.com/cianbox/api-docs/blob/master/delete_webhook_eliminar.md)
++ [Listar eventos y webhooks](https://github.com/cianbox/api-docs/blob/master/get_webhook_lista.md)
++ [Asignar un webhook a eventos](https://github.com/cianbox/api-docs/blob/master/post_webhook_alta.md)
++ [Dar de baja un webhook](https://github.com/cianbox/api-docs/blob/master/delete_webhook_eliminar.md)
 + [Recibe notificaciones](https://github.com/cianbox/api-docs/blob/master/recibe_notificaciones.md)
 
 #### General

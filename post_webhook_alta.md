@@ -41,7 +41,7 @@ curl -X POST -H "Content-Type: application/json" \
 {
     "status": "ok",
     "scheme": "https",
-    "host": "cianbox.∫∫org",
+    "host": "cianbox.org",
     "account": "micuenta",
     "module": "gr_config",
     "method": "POST",

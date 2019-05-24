@@ -1,6 +1,6 @@
 ### Descripción:
 
-Obtiene las Listas de Precio
+Obtiene un listado de los webhooks configurados para cada evento
 
 ### URL:
 

@@ -38,7 +38,7 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/productos?id=10564,10725,587,96
 #### Consideraciones
 
 + Para que la entrega de la notificación se considere exitosa, tu aplicación deberá devolver un estado HTTP 200.
-+ Tu aplicación debe responder en antes de los 30 segundos, de lo contrario se considerará la notificación como fallida.
++ Tu aplicación debe responder antes de los 30 segundos, de lo contrario se considerará la notificación como fallida.
 
 #### Eventos
 

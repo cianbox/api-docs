@@ -20,7 +20,8 @@ o
 |id           |NO        |id de los eventos ej. 2 o 1,3,4               |
 |evento       |NO        |nombres de los eventos ej. producto o clientes,marca,categoria |
 
-> *Nota:* Se puede filtrar por id o por evento, pero no por los dos a la vez
+> Se puede filtrar por id o por evento, pero no por los dos a la vez
+
 > Los eventos disponibles son: clientes, pedidos, productos, categorias, marcas, listas_precio, sucursales, cotizaciones 
 
 ### Ejemplo:

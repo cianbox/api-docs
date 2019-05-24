@@ -12,6 +12,7 @@ Bienvenido a la documentación de la API de Cianbox
 + [Listar webhooks](https://github.com/cianbox/api-docs/blob/master/get_webhook_lista.md)
 + [Dar de alta un webhook](https://github.com/cianbox/api-docs/blob/master/post_webhook_alta.md)
 + [Eliminar un webhook](https://github.com/cianbox/api-docs/blob/master/delete_webhook_eliminar.md)
++ [Recibe notificaciones](https://github.com/cianbox/api-docs/blob/master/recibe_notificaciones.md)
 
 #### General
 + [Obtener Cotizaciones](https://github.com/cianbox/api-docs/blob/master/get_cotizaciones_lista.md)

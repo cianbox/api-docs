@@ -69,7 +69,7 @@ $data = json_decode(file_get_contents("php://input"), TRUE);
 $evento = $data['event'];
 $ids    = $data['id'];
 /*
- * Acá va el código de tu aplicación para relaizar la petición a la API
+ * Acá va el código de tu aplicación para realizar la petición a la API
  */
 ?>
 ```

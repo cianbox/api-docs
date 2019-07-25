@@ -9,7 +9,7 @@ Crea un nuevo pedido
 ### Método: POST
 
 ### Parámetros:
-```json
+```js
 {
     "fecha": "2016-02-17",
     "id_canal": 6,
@@ -32,6 +32,14 @@ Crea un nuevo pedido
             "cantidad": 2.0000,
             "alicuota": 21.0000,
             "neto_uni": 419.0000
+        },
+        {
+            "id": 0, // Si el id es cero el campo detalle es obligatorio
+            "detalle": "Costo de Envío", // Este campo es opcional a menos que id sea igual a cero
+            "id_lista_precio": 2,
+            "cantidad": 2.0000,
+            "alicuota": 21.0000,
+            "neto_uni": 419.0000
         }
     ]
 }
@@ -49,7 +57,7 @@ curl -X POST -H "Content-Type: application/json" \
 'https://cianbox.org/micuenta/api/v2/pedidos/alta?access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
 ```
 ### Respuesta:
-```json
+```js
 {
     "status": "ok",
     "scheme": "https",

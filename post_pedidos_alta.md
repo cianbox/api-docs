@@ -34,12 +34,12 @@ Crea un nuevo pedido
             "neto_uni": 419.0000
         },
         {
-            "id": 0, // Si el id es cero el campo detalle es obligatorio
+            "id": 0,                     // Si el id es cero el campo detalle es obligatorio
             "detalle": "Costo de Envío", // Este campo es opcional a menos que id sea igual a cero
-            "id_lista_precio": 2,
-            "cantidad": 2.0000,
+            "id_lista_precio": 0,
+            "cantidad": 1.0000,
             "alicuota": 21.0000,
-            "neto_uni": 419.0000
+            "neto_uni": 246.0000
         }
     ]
 }

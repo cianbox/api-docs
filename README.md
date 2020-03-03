@@ -26,6 +26,7 @@ Bienvenido a la documentación de la API de Cianbox
 #### Clientes
 + [Obtener Clientes](https://github.com/cianbox/api-docs/blob/master/get_clientes_lista.md)
 + [Cargar un Cliente](https://github.com/cianbox/api-docs/blob/master/post_clientes_alta.md)
++ [Editar un Cliente](https://github.com/cianbox/api-docs/blob/master/put_clientes_editar.md)
 
 #### Pedidos/Órdenes
 + [Obtener Pedidos](https://github.com/cianbox/api-docs/blob/master/get_pedidos_lista.md)

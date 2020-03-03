@@ -20,6 +20,7 @@ o
 |id            |NO        |id del/los productos ej. 1566 o 1433,1788,19  |
 |codigo_interno|NO        |Código interno del/los productos ej. ABC123 o ACC887,VTE645,MTY698|
 |codigo_barras |NO        |Código de barras del/los productos ej. 77912879 o 78456327,74578214,73657842|
+|id_temporada  |NO        |id de la temporada del/los productos ej. 2 o 1,2,3|
 |page          |NO        |Página solicitada                             |
 |limit         |NO        |Límite de ítems por petición                  |
 |fields        |NO        |Cualquiera de los listados en **available_fields** separados por comas, valor predeterminado: todos los campos. ej. &fields=id,updated,producto|

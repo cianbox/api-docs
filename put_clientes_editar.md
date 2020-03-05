@@ -35,7 +35,7 @@ Editar un cliente
 ```
 
 ### Ejemplo:
-```shell
+```sh
 curl -X PUT -H "Content-Type: application/json" \
 -d '{ \
         "razon": "Pedro García", \

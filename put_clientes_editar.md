@@ -11,10 +11,10 @@ Editar un cliente
 ### Parámetros:
 
 #### vía URL
-|Parámetro    |Requerido |Descripción            |
-|-------------|----------|-----------------------|
-|access_token |SI        |Token de acceso válido |
-|id           |SI        |id delcliente a editar |
+|Parámetro    |Requerido |Descripción             |
+|-------------|----------|------------------------|
+|access_token |SI        |Token de acceso válido  |
+|id           |SI        |id del cliente a editar |
 
 #### vía JSON
 ```json

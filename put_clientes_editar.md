@@ -9,9 +9,16 @@ Editar un cliente
 ### Método: PUT
 
 ### Parámetros:
+
+#### vía URL
+|Parámetro    |Requerido |Descripción            |
+|-------------|----------|-----------------------|
+|access_token |SI        |Token de acceso válido |
+|id           |SI        |id delcliente a editar |
+
+#### vía JSON
 ```json
 {
-    "id"   : "713",
     "razon": "Pedro García",
     "condicion": "MT|RI|EXE|CF|RNI|NR|CE",
     "tipo_documento": "CUIT|CUIL|DNI|LE|LC|Pasaporte|CI Extranjera",
@@ -31,7 +38,6 @@ Editar un cliente
 ```bash
 curl -X PUT -H "Content-Type: application/json" \
 -d '{ \
-        "id"   : "713", \
         "razon": "Pedro García", \
         "condicion": "MT", \
         "tipo_documento": "CUIT", \
@@ -45,7 +51,7 @@ curl -X PUT -H "Content-Type: application/json" \
         "codigo_postal": 3116, \
         "observaciones": "Observaciones sobre el cliente" \
     }' \
-'https://cianbox.org/micuenta/api/v2/clientes/editar?access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
+'https://cianbox.org/micuenta/api/v2/clientes/editar?id=713&access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
 ```
 ### Respuesta:
 ```json

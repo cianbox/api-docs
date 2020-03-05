@@ -17,7 +17,7 @@ Editar un cliente
 |id           |SI        |id del cliente a editar |
 
 #### vía JSON
-```json
+``` json
 {
     "razon": "Pedro García",
     "condicion": "MT|RI|EXE|CF|RNI|NR|CE",
@@ -35,7 +35,7 @@ Editar un cliente
 ```
 
 ### Ejemplo:
-```sh
+``` sh
 curl -X PUT -H "Content-Type: application/json" \
 -d '{ \
         "razon": "Pedro García", \
@@ -55,7 +55,7 @@ curl -X PUT -H "Content-Type: application/json" \
 ```
 
 ### Respuesta:
-```json
+``` json
 {
     "status": "ok",
     "scheme": "https",

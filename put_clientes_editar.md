@@ -35,7 +35,7 @@ Editar un cliente
 ```
 
 ### Ejemplo:
-```bash
+```shell
 curl -X PUT -H "Content-Type: application/json" \
 -d '{ \
         "razon": "Pedro García", \
@@ -53,24 +53,7 @@ curl -X PUT -H "Content-Type: application/json" \
     }' \
 'https://cianbox.org/micuenta/api/v2/clientes/editar?id=713&access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
 ```
-<pre lang="bash">
-curl -X PUT -H "Content-Type: application/json" \
--d '{ \
-        "razon": "Pedro García", \
-        "condicion": "MT", \
-        "tipo_documento": "CUIT", \
-        "numero_documento": "20999999994", \
-        "telefono": "+54 343 12345656", \
-        "celular": "+54 343 123558877", \
-        "email": "pedrogarcia@mail.com.ar", \
-        "domicilio": "Av. Ramirez 1234", \
-        "localidad": "Paraná", \
-        "provincia": "Entre Ríos", \
-        "codigo_postal": 3116, \
-        "observaciones": "Observaciones sobre el cliente" \
-    }' \
-'https://cianbox.org/micuenta/api/v2/clientes/editar?<b>id=713</b>&access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
-</pre>
+
 ### Respuesta:
 ```json
 {

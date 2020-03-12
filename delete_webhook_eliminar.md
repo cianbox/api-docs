@@ -4,11 +4,11 @@ Da de baja un webhook relacionado a uno o más eventos
 
 ### URL:
 
-`https://cianbox.org/{cuenta}/api/v2/notificaciones`
+`https://cianbox.org/{cuenta}/api/v2/general/notificaciones`
 
 o
 
-`https://cianbox.org/{cuenta}/api/v2/notificaciones/eliminar`
+`https://cianbox.org/{cuenta}/api/v2/general/notificaciones/eliminar`
 
 ### Método: DELETE
 
@@ -28,14 +28,14 @@ curl -X DELETE -H "Content-Type: application/json" \
 -d '{ \
         "evento": ["productos", "marcas", "categorias"] \
     }' \
-'https://cianbox.org/micuenta/api/v2/notificaciones?access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
+'https://cianbox.org/micuenta/api/v2/general/notificaciones?access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
 ```
 ```bash
 curl -X DELETE -H "Content-Type: application/json" \
 -d '{ \
         "evento": "all" \
     }' \
-'https://cianbox.org/micuenta/api/v2/notificaciones/eliminar?access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
+'https://cianbox.org/micuenta/api/v2/general/notificaciones/eliminar?access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
 ```
 ### Respuesta:
 ```json

@@ -4,7 +4,7 @@ Asigna un webhook a un evento
 
 ### URL:
 
-`https://cianbox.org/{cuenta}/api/v2/notificaciones/alta`
+`https://cianbox.org/{cuenta}/api/v2/general/notificaciones/alta`
 
 ### Método: POST
 
@@ -26,7 +26,7 @@ curl -X POST -H "Content-Type: application/json" \
         "evento": ["productos", "marcas", "categorias"], \
         "url": "http://urldeejemplo.com.ar/ntf.php" \
     }' \
-'https://cianbox.org/micuenta/api/v2/notificaciones/alta?access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
+'https://cianbox.org/micuenta/api/v2/general/notificaciones/alta?access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
 ```
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -34,7 +34,7 @@ curl -X POST -H "Content-Type: application/json" \
         "evento": "all", \
         "url": "http://urldeejemplo.com.ar/ntf.php" \
     }' \
-'https://cianbox.org/micuenta/api/v2/notificaciones/alta?access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
+'https://cianbox.org/micuenta/api/v2/general/notificaciones/alta?access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
 ```
 ### Respuesta:
 ```json

@@ -20,7 +20,7 @@ o
 
 ### Ejemplo:
 ```bash
-curl -X DELETE 'https://cianbox.org/micuenta/api/v2/pedidos/estados?id=5&access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
+curl -X DELETE 'https://cianbox.org/micuenta/api/v2/pedidos/estados?id=5&access_token=CBX_AT-TcIHdWOv...'
 ```
 
 ### Respuesta:

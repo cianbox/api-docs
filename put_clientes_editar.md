@@ -60,7 +60,7 @@ curl -X PUT -H "Content-Type: application/json" \
     "status": "ok",
     "scheme": "https",
     "host": "cianbox.org",
-    "account": "rpdigital",
+    "account": "micuenta",
     "module": "pv_clientes",
     "method": "PUT",
     "body": {

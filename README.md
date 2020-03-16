@@ -31,3 +31,7 @@ Bienvenido a la documentación de la API de Cianbox
 #### Pedidos/Órdenes
 + [Obtener Pedidos](https://github.com/cianbox/api-docs/blob/master/get_pedidos_lista.md)
 + [Crear un Pedido](https://github.com/cianbox/api-docs/blob/master/post_pedidos_alta.md)
++ [Obtener Estados de Pedidos](https://github.com/cianbox/api-docs/blob/master/get_estados_pedidos_lista.md)
++ [Cargar un Estado de Pedidos](https://github.com/cianbox/api-docs/blob/master/post_estados_pedidos_alta.md)
++ [Editar un Estado de Pedidos](https://github.com/cianbox/api-docs/blob/master/put_estados_pedidos_editar.md)
++ [Dar de baja un Estado de Pedidos](https://github.com/cianbox/api-docs/blob/master/delete_estados_pedidos_eliminar.md)

@@ -94,11 +94,15 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/productos?access_token=CBX_AT-T
             "stock_sucursal": [
                 {
                     "id_sucursal": 1,
-                    "stock": 30
+                    "stock": 30,
+                    "reservado": 0,
+                    "disponible": 30
                 },
                 {
                     "id_sucursal": 2,
-                    "stock": 20
+                    "stock": 20,
+                    "reservado": 5,
+                    "disponible": 15
                 }
             ],
             "reservado": 0,

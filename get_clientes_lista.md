@@ -14,14 +14,15 @@ o
 
 ### Parámetros:
 
-|Parámetro    |Requerido |Descripción                                   |
-|-------------|----------|----------------------------------------------|
-|access_token |SI        |Token de acceso válido                        |
-|id           |NO        |id del/los clientes ej. 1566 o 143,188,19     |
-|page         |NO        |Página solicitada                             |
-|limit        |NO        |Límite de ítems por petición                  |
-|fields       |NO        |Cualquiera de los listados en **available_fields** separados por comas, valor predeterminado: todos los campos. ej. &fields=id,updated,razon|
-|order        |NO        |Ordena el listado, acepta los valores: create-date-asc, create-date-desc, modified-date-asc, modified-date-desc, id-asc, id-desc|
+|Parámetro       |Requerido |Descripción                                   |
+|----------------|----------|----------------------------------------------|
+|access_token    |SI        |Token de acceso válido                        |
+|id              |NO        |id del/los clientes ej. 1566 o 143,188,19     |
+|numero_documento|NO        |Número de documento del/los clientes ej. 99888777 o 20334445556,99777888,27990001114. Se aceptan solo valores numéricos, sin puntos, guiones, etc.|
+|page            |NO        |Página solicitada                             |
+|limit           |NO        |Límite de ítems por petición                  |
+|fields          |NO        |Cualquiera de los listados en **available_fields** separados por comas, valor predeterminado: todos los campos. ej. &fields=id,updated,razon|
+|order           |NO        |Ordena el listado, acepta los valores: create-date-asc, create-date-desc, modified-date-asc, modified-date-desc, id-asc, id-desc|
 
 
 ### Ejemplo:

@@ -17,6 +17,7 @@ Crea un nuevo pedido
     "id_cliente": 45,
     "id_usuario": 12,
     "id_sucursal": 1,
+    "id_estado": 1,
     "observaciones": "Observaciones del pedido",
     "productos": [
         {

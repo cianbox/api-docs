@@ -29,7 +29,7 @@ curl -X PUT -H "Content-Type: application/json" \
 -d '{ \
         "estado": "Preparando Mercadería" \
     }' \
-'https://cianbox.org/micuenta/api/v2/clientes/editar?id=5&access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
+'https://cianbox.org/micuenta/api/v2/pedidos/estados/editar?id=5&access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
 ```
 
 ### Respuesta:
@@ -39,7 +39,7 @@ curl -X PUT -H "Content-Type: application/json" \
     "scheme": "https",
     "host": "cianbox.org",
     "account": "micuenta",
-    "module": "pv_clientes",
+    "module": "pv_pedidos",
     "method": "PUT",
     "body": {
         "status": "ok",

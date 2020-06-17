@@ -58,7 +58,9 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/pedidos?access_token=CBX_AT-TcI
         "estado",
         "entregado",
         "zona_cliente",
-        "detalles"
+        "detalles",
+        "anulado",
+        "vigente"
     ],
     "page": 1,
     "total_pages": 1,
@@ -92,7 +94,9 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/pedidos?access_token=CBX_AT-TcI
                     "alicuota": 1.21,
                     "neto_uni": 350
                 }
-            ]
+            ],
+            "anulado": false,
+            "vigente": true
         }
     ]
 }

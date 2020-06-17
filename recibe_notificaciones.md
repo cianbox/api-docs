@@ -54,6 +54,7 @@ Los eventos a los cuales podés suscribir tus URLs son:
 |listas_precio   |https://cianbox.org/micuenta/api/v2/productos/listas     |
 |sucursales      |https://cianbox.org/micuenta/api/v2/productos/sucursales |
 |cotizaciones    |https://cianbox.org/micuenta/api/v2/general/cotizaciones |
+|estados         |https://cianbox.org/micuenta/api/v2/pedidos/estados      |
 
 #### Código de ejemplo
 

@@ -17,7 +17,7 @@ Asigna un webhook a un evento
 ```
 > La variable evento puede ser un array con los nombres de los eventos o un string "all" para asignar a todos los eventos
 
-> Los eventos disponibles son: clientes, pedidos, productos, categorias, marcas, listas_precio, sucursales, cotizaciones
+> Los eventos disponibles son: clientes, pedidos, productos, categorias, marcas, listas_precio, sucursales, cotizaciones y estados
 
 ### Ejemplo:
 ```bash

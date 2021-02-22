@@ -59,6 +59,7 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/clientes?access_token=CBX_AT-Tc
         "descuento",
         "listas_precio",
         "observaciones",
+        "id_categoria",      
         "usuarios"
     ],
     "page": 1,
@@ -83,8 +84,13 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/clientes?access_token=CBX_AT-Tc
             "saldo": 23781.32,
             "descuento": 0,
             "listas_precio": [0,2,3,4],
-            "observaciones": "Abono hasta octubre 2018 $2805"
+            "observaciones": "Abono hasta octubre 2018 $2805",
+            "id_categoria": "1"
         }
     ]
 }
 ```
+
+### Aclaraciones:
+
+El valor 0 en el parámetro id_categoría indica inexistencia de relación

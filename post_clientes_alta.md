@@ -22,7 +22,8 @@ Crea un nuevo cliente
     "localidad": "Paraná",
     "provincia": "Entre Ríos",
     "codigo_postal": 3116,
-    "observaciones": "Observaciones sobre el cliente"
+    "observaciones": "Observaciones sobre el cliente",
+    "id_categoria": 3
 }
 ```
 
@@ -41,7 +42,8 @@ curl -X POST -H "Content-Type: application/json" \
         "localidad": "Paraná", \
         "provincia": "Entre Ríos", \
         "codigo_postal": 3116, \
-        "observaciones": "Observaciones sobre el cliente" \
+        "observaciones": "Observaciones sobre el cliente", \
+        "id_categoria": 3 \
     }' \
 'https://cianbox.org/micuenta/api/v2/clientes/alta?access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
 ```

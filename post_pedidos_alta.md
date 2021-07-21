@@ -42,7 +42,9 @@ Crea un nuevo pedido
             "alicuota": 21.0000,
             "neto_uni": 246.0000
         }
-    ]
+    ],
+    "id_moneda": 2,                      // Si no se pasa el campo, se tomará la moneda principal (1)
+    "cotizacion": 170.00                 // Si no se pasa el campo, se tomará 1 si no se informó id_moneda, si no, devolverá error.
 }
 ```
 

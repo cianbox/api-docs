@@ -60,7 +60,9 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/pedidos?access_token=CBX_AT-TcI
         "zona_cliente",
         "detalles",
         "anulado",
-        "vigente"
+        "vigente",
+        "id_moneda",
+        "cotizacion"
     ],
     "page": 1,
     "total_pages": 1,
@@ -96,7 +98,9 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/pedidos?access_token=CBX_AT-TcI
                 }
             ],
             "anulado": false,
-            "vigente": true
+            "vigente": true,
+            "id_moneda": 1,
+            "cotizacion": 1.00
         }
     ]
 }

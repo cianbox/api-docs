@@ -19,6 +19,7 @@ Crea un nuevo pedido
     "id_sucursal": 1,
     "id_estado": 1,
     "observaciones": "Observaciones del pedido",
+    "no_comprueba_stock": false, // Este campo es opcional y por defecto "false"
     "productos": [
         {
             "id": 67,

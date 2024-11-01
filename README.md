@@ -36,3 +36,9 @@ Bienvenido a la documentación de la API de Cianbox
 + [Editar un Estado de Pedidos](https://github.com/cianbox/api-docs/blob/master/put_estados_pedidos_editar.md)
 + [Dar de baja un Estado de Pedidos](https://github.com/cianbox/api-docs/blob/master/delete_estados_pedidos_eliminar.md)
 + [Dar de baja un Pedido](https://github.com/cianbox/api-docs/blob/master/delete_eliminar_pedido.md)
+
+#### Ventas
++ [Obtener Ventas](https://github.com/cianbox/api-docs/blob/master/get_ventas_lista.md)
+
+#### Mercado Libre
++ [Obtener Ventas ML](https://github.com/cianbox/api-docs/blob/master/get_ml_ventas_lista.md)

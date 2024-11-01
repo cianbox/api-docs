@@ -1,7 +1,6 @@
 ### Descripción:
 
-Obtiene un venta o lista de ventas
-
+Obtiene una venta o lista de ventas. Este endpoint permite recuperar información detallada sobre las operaciones de venta, incluyendo datos del cliente, montos, detalles de productos y estado de la operación.
 ### URL:
 
 `https://cianbox.org/{cuenta}/api/v2/ventas`

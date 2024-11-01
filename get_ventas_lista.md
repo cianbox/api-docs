@@ -18,14 +18,14 @@ o
 |-------------|----------|----------------------------------------------|
 |access_token |SI        |Token de acceso válido                        |
 |id           |NO        |id de/las ventas ej. 1566 o 143,188,19        |
-|cuit_emisor  |NO        |Número de CUIT del emisor. Se aceptan solo valores numéricos, sin puntos, guiones, etc.|
-|numero_documento_venta |NO        |Número de documento del receptor. Se aceptan solo valores numéricos, sin puntos, guiones, etc.|
-|vigente      |NO        |Filtrar por las ventas vigentes / no vigentes|
-|anulado      |NO        |Filtrar por las ventas anuladas / no anuladas|
-|limit        |NO        |Límite de ítems por petición                 |
+|cuit_emisor  |NO        |Número de CUIT del emisor. Se aceptan solo valores numéricos, sin puntos, guiones, etc. |
+|numero_documento_venta  |NO        |Número de documento del receptor. Se aceptan solo valores numéricos, sin puntos, guiones, etc. |
+|vigente      |NO        |Filtrar por las ventas vigentes / no vigentes |
+|anulado      |NO        |Filtrar por las ventas anuladas / no anuladas |
+|limit        |NO        |Límite de ítems por petición                  |
 |page         |NO        |Página solicitada|
-|fields       |NO        |Cualquiera de los listados en **available_fields** separados por comas, valor predeterminado: todos los campos. ej. &fields=id,updated,razon|
-|order        |NO        |Ordena el listado, acepta los valores: create-date-asc, create-date-desc, id-asc, id-desc|
+|fields       |NO        |Cualquiera de los listados en **available_fields** separados por comas, valor predeterminado: todos los campos. ej. &fields=id,updated,razon |
+|order        |NO        |Ordena el listado, acepta los valores: create-date-asc, create-date-desc, id-asc, id-desc |
 
 ### Ejemplo:
 ```bash

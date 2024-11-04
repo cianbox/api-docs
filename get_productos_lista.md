@@ -71,8 +71,16 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/productos?access_token=CBX_AT-T
         "color",
         "genero",
         "temporada",
+        "material",
+        "estado",
+        "garantia",
         "imagenes",
-        "vigente"
+        "detalle_imagenes",
+        "vigente",
+        "alto",
+        "ancho",
+        "profundidad",
+        "peso"
     ],
     "page": 1,
     "total_pages": 1,
@@ -109,8 +117,19 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/productos?access_token=CBX_AT-T
             "cantidad_minima": 0,
             "cantidad_critica": 0,
             "precio_neto": 12.3967,
-            "precio_oferta": 0,
-            "oferta": false,
+            "precio_oferta": 25000,
+            "precio_oferta_calculado": 25000,
+            "oferta": true,
+            "detalle_oferta": {
+                "precio_oferta_neto": 25000,
+                "precio_oferta_final": 30250,
+                "precio_oferta_neto_calculado": 25041.3223,
+                "precio_oferta_final_calculado": 30300,
+                "precio_original_neto": 28700,
+                "precio_original_final": 34727,
+                "precio_original_neto_calculado": 28760.3306,
+                "precio_original_final_calculado": 34800
+            },
             "precios": [
                 {
                     "id_lista_precio": 0,
@@ -149,11 +168,30 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/productos?access_token=CBX_AT-T
             "color": "",
             "genero": null,
             "temporada": "",
+            "material": "",
+            "estado": "Nuevo",
+            "garantia": "90 días desde la entrega",
             "imagenes": [
                 "https://cianbox.org/micuenta/uploads/pv_productos/2018/08/1534977203f036a7ff4bbf5fa28c5a74f382ae61fa.jpg",
                 "https://cianbox.org/micuenta/uploads/pv_productos/2018/08/1534977362a807ca81acdd483d2dcd9247a54db4f6.png"
             ],
-            "vigente": true
+             "detalle_imagenes": [
+                  {
+                      "id_imagen": 1794,
+                      "orden": 0,
+                      "url": "https://cianbox.org/micuenta/uploads/pv_productos/2018/08/1534977203f036a7ff4bbf5fa28c5a74f382ae61fa.jpg"
+                  },
+                  {
+                      "id_imagen": 1874,
+                      "orden": 1,
+                      "url": "https://cianbox.org/micuenta/uploads/pv_productos/2018/08/1534977362a807ca81acdd483d2dcd9247a54db4f6.png"
+                  }
+              ],
+            "vigente": true,
+            "alto": 100,
+            "ancho": 120,
+            "profundidad": 45,
+            "peso": 1.75
         }
     ]
 }

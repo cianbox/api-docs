@@ -22,6 +22,7 @@ Bienvenido a la documentación de la API de Cianbox
 + [Obtener Marcas](https://github.com/cianbox/api-docs/blob/master/get_marcas_lista.md)
 + [Obtener Categorías](https://github.com/cianbox/api-docs/blob/master/get_categorias_lista.md)
 + [Obtener Listas de Precio](https://github.com/cianbox/api-docs/blob/master/get_listas_precio_lista.md)
++ [Cargar un Ajuste de Stock](https://github.com/cianbox/api-docs/blob/master/post_ajuste_stock_alta.md)
 
 #### Clientes
 + [Obtener Clientes](https://github.com/cianbox/api-docs/blob/master/get_clientes_lista.md)

@@ -31,7 +31,8 @@ curl -X POST -H "Content-Type: application/json" \
         {"id_producto": 265, "stock": 10.00},\
         {"id_producto": 761, "stock": 2.00},\
         {"id_producto": 17, "stock": 0.00}\
-    }' \
+    ]\
+    }'\
 'https://cianbox.org/micuenta/api/v2/productos/ajuste_stock/alta?access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
 ```
 ### Respuesta:

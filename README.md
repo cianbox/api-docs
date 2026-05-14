@@ -43,3 +43,6 @@ Bienvenido a la documentación de la API de Cianbox
 
 #### Mercado Libre
 + [Obtener Ventas ML](https://github.com/cianbox/api-docs/blob/master/get_ml_ventas_lista.md)
+
++ ---
++ [Términos y Condiciones](https://github.com/cianbox/api-docs/blob/master/terminos_y_condiciones_api.md)

@@ -11,16 +11,16 @@ Crea un nuevo cliente
 ### Parámetros:
 ```json
 {
-    "razon": "Pedro García",
+    "razon": "Cliente Demo",
     "condicion": "MT|RI|EXE|CF|RNI|NR|CE",
     "tipo_documento": "CUIT|CUIL|DNI|LE|LC|Pasaporte|CI Extranjera",
     "numero_documento": "20999999994",
     "telefono": "+54 343 12345656",
     "celular": "+54 343 123558877",
-    "email": "pedrogarcia@mail.com.ar",
-    "domicilio": "Av. Ramirez 1234",
-    "localidad": "Paraná",
-    "provincia": "Entre Ríos",
+    "email": "cliente.demo@example.com",
+    "domicilio": "Av. Ejemplo 1234",
+    "localidad": "Ciudad Demo",
+    "provincia": "Provincia Demo",
     "codigo_postal": 3116,
     "observaciones": "Observaciones sobre el cliente",
     "id_categoria": 3,
@@ -32,16 +32,16 @@ Crea un nuevo cliente
 ```bash
 curl -X POST -H "Content-Type: application/json" \
 -d '{ \
-        "razon": "Pedro García", \
+        "razon": "Cliente Demo", \
         "condicion": "MT", \
         "tipo_documento": "CUIT", \
         "numero_documento": "20999999994", \
         "telefono": "+54 343 12345656", \
         "celular": "+54 343 123558877", \
-        "email": "pedrogarcia@mail.com.ar", \
-        "domicilio": "Av. Ramirez 1234", \
-        "localidad": "Paraná", \
-        "provincia": "Entre Ríos", \
+        "email": "cliente.demo@example.com", \
+        "domicilio": "Av. Ejemplo 1234", \
+        "localidad": "Ciudad Demo", \
+        "provincia": "Provincia Demo", \
         "codigo_postal": 3116, \
         "observaciones": "Observaciones sobre el cliente", \
         "id_categoria": 3, \
@@ -60,7 +60,7 @@ curl -X POST -H "Content-Type: application/json" \
     "method": "POST",
     "body": {
         "status": "ok",
-        "description": "El cliente Pedro García (1581) se cargó correctamente",
+        "description": "El cliente Cliente Demo (1581) se cargó correctamente",
         "id": 1581
     }
 }

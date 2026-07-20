@@ -22,7 +22,7 @@ o
 
 > Se puede filtrar por id o por evento, pero no por los dos a la vez
 
-> Los eventos disponibles son: clientes, pedidos, productos, categorias, marcas, listas_precio, sucursales, cotizaciones 
+> Los eventos disponibles son: clientes, pedidos, productos, categorias, marcas, listas_precio, sucursales, cotizaciones, estados, categorias_cliente, ventas, compras y proveedores.
 
 ### Ejemplo:
 ```bash

@@ -20,7 +20,7 @@ o
 ```
 > La variable evento puede ser un array con los nombres de los eventos o un string "all" para asignar a todos los eventos
 
-> Los eventos disponibles son: clientes, pedidos, productos, categorias, marcas, listas_precio, sucursales, cotizaciones y estados
+> Los eventos disponibles son: clientes, pedidos, productos, categorias, marcas, listas_precio, sucursales, cotizaciones, estados, categorias_cliente, ventas, compras y proveedores.
 
 ### Ejemplo:
 ```bash

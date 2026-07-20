@@ -9,9 +9,9 @@ o se da de baja un pedido.
 
 Con los siguientes recursos podés manejar tus suscripciones:
 
-1. [Listar eventos y webhooks](https://github.com/cianbox/api-docs/blob/master/get_webhook_lista.md)
-2. [Asignar un webhook a eventos](https://github.com/cianbox/api-docs/blob/master/post_webhook_alta.md)
-3. [Dar de baja un webhook](https://github.com/cianbox/api-docs/blob/master/delete_webhook_eliminar.md)
+1. [Listar eventos y webhooks](get_webhook_lista.md)
+2. [Asignar un webhook a eventos](post_webhook_alta.md)
+3. [Dar de baja un webhook](delete_webhook_eliminar.md)
 
 Una vez suscripto vas a recibir el siguiente JSON en tu/s URL/s:
 
@@ -55,6 +55,10 @@ Los eventos a los cuales podés suscribir tus URLs son:
 |sucursales      |https://cianbox.org/micuenta/api/v2/productos/sucursales |
 |cotizaciones    |https://cianbox.org/micuenta/api/v2/general/cotizaciones |
 |estados         |https://cianbox.org/micuenta/api/v2/pedidos/estados      |
+|categorias_cliente|https://cianbox.org/micuenta/api/v2/clientes/categorias|
+|ventas          |https://cianbox.org/micuenta/api/v2/ventas               |
+|compras         |https://cianbox.org/micuenta/api/v2/compras              |
+|proveedores     |https://cianbox.org/micuenta/api/v2/proveedores          |
 
 #### Código de ejemplo
 

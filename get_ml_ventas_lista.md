@@ -1,14 +1,14 @@
 ### Descripción:
 
-Obtiene una venta o lista de ventas
+Obtiene una venta o lista de ventas de Mercado Libre.
 
 ### URL:
 
-`http://cianbox.test/{cuenta}/api/v2/mercadolibre/ventas `
+`https://cianbox.org/{cuenta}/api/v2/mercadolibre/ventas`
 
 o
 
-`http://cianbox.test/{cuenta}/api/v2/mercadolibre/ventas/lista`
+`https://cianbox.org/{cuenta}/api/v2/mercadolibre/ventas/lista`
 
 ### Método: GET
 
@@ -17,10 +17,11 @@ o
 |Parámetro    |Requerido |Descripción                                   |
 |-------------|----------|----------------------------------------------|
 |access_token |SI        |Token de acceso válido                        |
+|id           |NO        |Uno o varios identificadores internos `body[].id`, separados por coma |
 |id_usuario_externo |NO        |id del usuario que provee MercadoLibre ej. 99161998 o 99161998, 99161999 |
 |id_venta_ml        |NO        |Filtra por id de venta traído de ML ej. 2000006295990422 o 2000006295990422, 2000006295990423 |
 |id_user_ml         |NO        |Filtra por id de la cuenta (integración) brindado por MercadoLibre. Ej: 9999 o 9998, 9999 |
-|id_publicacion_ml  |NO        |Filtra por id de la publicacion ML ej. MLA1408999998 o MLA1408999998, MLA1408999999 |
+|id_publicacion_ml  |NO        |Filtra por id de la publicación ML ej. MLA1408999998 o MLA1408999998, MLA1408999999 |
 |vigente      |NO        |Filtrar por las ventas vigentes / no vigentes |
 |cancelada    |NO        |Filtrar por las ventas canceladas             |
 |limit        |NO        |Límite de ítems por petición                  |
@@ -28,18 +29,21 @@ o
 |fields       |NO        |Cualquiera de los listados en **available_fields** separados por comas, valor predeterminado: todos los campos. ej. &fields=id,updated,razon |
 |order        |NO        |Ordena el listado, acepta los valores: create-date-asc, create-date-desc, update-date-asc, update-date-desc, id-asc, id-desc, id_venta_ml-asc, id_venta_ml-desc |
 
+Los valores de `id` corresponden al identificador interno de Cianbox. Para buscar por el identificador público de la orden de Mercado Libre debe utilizarse `id_venta_ml`.
+
 ### Ejemplo:
+
 ```bash
-curl -X GET 'https://cianbox.org/micuenta/api/v2/mercadolibre/ventas?access_token=CBX_AT-TcIHdWOvdpIMNsXG...'
+curl -X GET 'https://cianbox.org/micuenta/api/v2/mercadolibre/ventas?access_token=CBX_AT-TcIHdWOvdpIMNsXG...&id=25422'
 ```
+
 ### Respuesta:
 
 ```json
-
 {
     "status": "ok",
-    "scheme": "http",
-    "host": "cianbox.test",
+    "scheme": "https",
+    "host": "cianbox.org",
     "account": "micuenta",
     "module": "ml_ventas",
     "method": "GET",
@@ -148,3 +152,35 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/mercadolibre/ventas?access_toke
     ]
 }
 ```
+
+### Webhooks
+
+El recurso dispone del evento `ventas_mercadolibre`, cuyo `endpoint` es `mercadolibre/ventas`.
+
+El evento se dispara cuando:
+
+- Cianbox incorpora una venta nueva de Mercado Libre.
+- Cianbox procesa una actualización recibida desde Mercado Libre.
+- Una operación interna modifica datos de la venta expuestos por esta API, por ejemplo su cliente, cancelación, reserva o venta facturada asociada.
+
+El webhook se configura con `POST /api/v2/general/notificaciones/alta`:
+
+```json
+{
+    "evento": ["ventas_mercadolibre"],
+    "url": "https://integracion.ejemplo.com/webhooks/cianbox"
+}
+```
+
+Ejemplo del payload enviado:
+
+```json
+{
+    "event": "ventas_mercadolibre",
+    "created": "2026-08-06 12:00:00",
+    "id": ["123", "456"],
+    "endpoint": "mercadolibre/ventas"
+}
+```
+
+El receptor debe responder HTTP 200 y procesar los identificadores de forma idempotente, ya que una notificación puede reenviarse.

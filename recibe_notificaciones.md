@@ -57,6 +57,7 @@ Los eventos a los cuales podés suscribir tus URLs son:
 |estados         |https://cianbox.org/micuenta/api/v2/pedidos/estados      |
 |categorias_cliente|https://cianbox.org/micuenta/api/v2/clientes/categorias|
 |ventas          |https://cianbox.org/micuenta/api/v2/ventas               |
+|ventas_mercadolibre|https://cianbox.org/micuenta/api/v2/mercadolibre/ventas|
 |compras         |https://cianbox.org/micuenta/api/v2/compras              |
 |proveedores     |https://cianbox.org/micuenta/api/v2/proveedores          |
 

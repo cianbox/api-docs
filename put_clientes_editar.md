@@ -19,16 +19,16 @@ Editar un cliente
 #### vía JSON
 ``` json
 {
-    "razon": "Pedro García",
+    "razon": "Cliente Demo",
     "condicion": "MT|RI|EXE|CF|RNI|NR|CE",
     "tipo_documento": "CUIT|CUIL|DNI|LE|LC|Pasaporte|CI Extranjera",
     "numero_documento": "20999999994",
     "telefono": "+54 343 12345656",
     "celular": "+54 343 123558877",
-    "email": "pedrogarcia@mail.com.ar",
-    "domicilio": "Av. Ramirez 1234",
-    "localidad": "Paraná",
-    "provincia": "Entre Ríos",
+    "email": "cliente.demo@example.com",
+    "domicilio": "Av. Ejemplo 1234",
+    "localidad": "Ciudad Demo",
+    "provincia": "Provincia Demo",
     "codigo_postal": 3116,
     "observaciones": "Observaciones sobre el cliente",
     "id_categoria": 3,
@@ -40,16 +40,16 @@ Editar un cliente
 ``` sh
 curl -X PUT -H "Content-Type: application/json" \
 -d '{ \
-        "razon": "Pedro García", \
+        "razon": "Cliente Demo", \
         "condicion": "MT", \
         "tipo_documento": "CUIT", \
         "numero_documento": "20999999994", \
         "telefono": "+54 343 12345656", \
         "celular": "+54 343 123558877", \
-        "email": "pedrogarcia@mail.com.ar", \
-        "domicilio": "Av. Ramirez 1234", \
-        "localidad": "Paraná", \
-        "provincia": "Entre Ríos", \
+        "email": "cliente.demo@example.com", \
+        "domicilio": "Av. Ejemplo 1234", \
+        "localidad": "Ciudad Demo", \
+        "provincia": "Provincia Demo", \
         "codigo_postal": 3116, \
         "observaciones": "Observaciones sobre el cliente", \
         "id_categoria": 3, \
@@ -69,7 +69,7 @@ curl -X PUT -H "Content-Type: application/json" \
     "method": "PUT",
     "body": {
         "status": "ok",
-        "description": "El cliente Pedro García (713) se actualizó correctamente",
+        "description": "El cliente Cliente Demo (713) se actualizó correctamente",
         "id": 713
     }
 }

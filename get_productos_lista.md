@@ -80,7 +80,8 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/productos?access_token=CBX_AT-T
         "alto",
         "ancho",
         "profundidad",
-        "peso"
+        "peso",
+        "componentes"
     ],
     "page": 1,
     "total_pages": 1,
@@ -192,6 +193,29 @@ curl -X GET 'https://cianbox.org/micuenta/api/v2/productos?access_token=CBX_AT-T
             "ancho": 120,
             "profundidad": 45,
             "peso": 1.75
+        }
+    ]
+}
+```
+
+Cuando el producto es un combo, la respuesta incluye el campo `componentes` con
+su composición vigente. Los productos que no son combos mantienen la estructura
+actual y no incluyen este campo.
+
+Cada componente informa el identificador y los códigos del producto, la cantidad
+necesaria para formar una unidad del combo y su nombre.
+
+```json
+{
+    "id": 17534,
+    "producto": "Combo de ejemplo",
+    "componentes": [
+        {
+            "id": 17533,
+            "codigo_interno": "DVD-00001",
+            "codigo_barras": "9876546543553",
+            "cantidad_relacionada": 2,
+            "producto": "DVD BULK X50 IMPRIMIBLE TELTRON -R 16X"
         }
     ]
 }
